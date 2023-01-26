@@ -1,0 +1,48 @@
+
+
+h1{
+    color: red;
+}
+input{
+    border: none;
+    box-shadow: 0px 0px 10px rgba(67,65,67,.4);
+    padding: 10px 15px;
+    outline: none;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+input:focus{
+    text-decoration: none;
+}
+input:focus-within{
+    border: 2px solid aqua;
+}
+button{
+    width: auto;
+    padding: 10px 30px;
+    box-shadow: 0px 0px 10px rgba(67,65,67,.4);
+    border: 2px solid white;
+    margin-bottom: 30px;
+    cursor: pointer;
+    border-radius: 200px;
+    transition: .3s ease;
+
+}
+button:hover{
+    background-color: green;
+    color: white;
+    transition: .3s ease;
+}
+.tab-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+th{
+    width: auto;
+    padding: 10px 30px;
+}
+td,th{
+    text-align: center;
+}
